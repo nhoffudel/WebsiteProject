@@ -3,15 +3,24 @@ h1 {
 }
 
 .big-heading {
-  font-family: Verdana;
+  color:yellow;
 }
 
 .section-heading {
-  /* Add your own font here */
+
+}
+
+p {
+
+}
+
+ol li{
+  list-style:none;
+  display: inline;
 }
 
 .nav__list {
-
+  align-items:stretch;
 }
 
 .nav__list_item {
@@ -19,32 +28,53 @@ h1 {
 }
 
 .page {
-
+  font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+  color: cyan;
 }
 
 .page__header {
+  display: flex;
   background-color: aqua;
-
+  color: black;
+  position: sticky; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
 }
-.page__content {
-  background-color: beige;
 
+.page_header_wrapper {
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.page__content {
+  background-color: black;
+  display: flex;
 }
 
 .left-content {
-  background-color: burlywood;
-
+  background-color: gray;
+  width: auto;
+  padding:5px;
 }
 
 .right-content {
-  background-color: burlywood;
+  background-color: orange;
+  width: 25px;
+  padding:5px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
 }
 
 .main-content {
-
+  flex-grow: 1;
+  margin: 5px;
 }
 
 .main-content__section {
-  background-color: cornsilk;
+  /* background-color: cornsilk; */
 
 }
