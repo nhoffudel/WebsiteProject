@@ -8,18 +8,20 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
     <!--Link to our stylesheet-->
     <link rel="stylesheet" type="text/css" href="./styles.css" />
-    <title>My test page</title>
+    <title>Nick Hoffman's Simple Portfolio</title>
   </head>
 
   <body class="page">
     <!--- PAGE HEADER WITH NAV BAR AND LOGO --->
     <header class="page__header">
-      <nav class="nav">
-        <ol class="nav__list">
-          <li class="nav__list-item">About</li>
-          <li class="nav__list-item">Experience</li>
-        </ol>
-      </nav>
+      <div class="page_header_wrapper">
+        <nav class="nav">
+          <ol class="nav__list">
+            <li class="nav__list-item"><a href="#about">About</a></li>
+            <li class="nav__list-item"><a href="#experience">Experience</a></li>
+          </ol>
+        </nav>
+      </div>
     </header>
 
     <!--The rest of the page-->
@@ -27,7 +29,8 @@
 
       <!---Left column (will be small sidebar)--->
       <div class="left-content">
-        This will become the left column. You will put links to your Github, LinkedIn, etc here.
+        <a href="http://linkedin.com/in/nicholas-a-hoffman/">LinkedIn</a>
+        <a href="http://github.com/nhoffudel">GitHub</a>
       </div>
 
       <!---Center column (will be page hero and content sections) --->
@@ -35,31 +38,34 @@
         <section id="hero" class="main-content__section">
           <div>
             <div>
-              <h1 class="big-heading">My Name Here</h1>
-              <h2>And what I do.</h2>
+              <h1 class="big-heading">Nick Hoffman</h1>
+              <h2>Software Engineer</h2>
             </div>
-            <p>Here is where I will briefly describe myself.</p>
-            <div>
-              <a>Get in Touch</a>
-            </div>
+            <p>I am a software engineer & developer from Newark, Delaware. I am a graduate of the University of Delaware and Per Scholas' Intermediate Java Full Stack Developer boot camp.</p>
+            <!-- <div>
+              <a href=mailto:nick@myemail.com>Send me an email!</a>
+            </div> -->
         </section>
         <section id="about" class="main-content__section">
           <h2 class="section-heading">
             About Me
           </h2>
-          <p>Here is where I talk more about myself.</p>
+          <p>I am currently restoring a 1984 Jeep CJ-7. While serving as a chair member of Reel Productions Film Society at the University of Delaware, I assisted in the production of several short films and public service announcements. I was the first Meal & Travel Manager of the University of Delaware Marching Band and literally wrote the book on how to feed and transport the band. I am a black belt in Kenpo karate and am currently studying Arnis and Bo. I enjoy traveling to and learning about historic places.</p>
         </section>
         <section id="experience" class="main-content__section">
           <h2 class="section-heading">
             Experience
           </h2>
-          <p>Here is where I talk about my experience.</p>
+          <p>Coursework topics at the University of Delaware included software engineering, data structures, algorithms, databases, and object oriented design. I worked with clients such as Delaware Department of Natural Resources and private researchers to deliver customized solutions.</p>
+          <p>
+            Coursework topics at Per Scholas included aspects of full stack development with a focus on Java. Languages used included Java, JavaScript, SQL, HTML, and CSS and covered software development, object oriented design, databases, and web development.
+          </p>
         </section>
       </main>
 
       <!---Right column (will be empty space)--->
       <div class="right-content">
-        This will become the right column. Leave this blank, or add something similar to the example website.
+        <a href=mailto:nick@myemail.com>nick@myemail.com</a>
       </div>
     </div>
   </body>
