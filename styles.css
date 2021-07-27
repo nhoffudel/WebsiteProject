@@ -58,7 +58,7 @@ ol li{
 }
 
 .page__content {
-  /* background-color: #081808; */
+  
 }
 
 .left-content {
@@ -91,11 +91,11 @@ ol li{
 
 .main-content {
   flex-grow: 1;
-  margin: 5px;
+  margin: 10px;
 }
 
 .main-content__section {
-
+  
 }
 
 #hero {
