@@ -4,10 +4,11 @@ h1 {
 
 .big-heading {
   color:yellow;
+  text-align: center;
 }
 
 .section-heading {
-
+ text-align: center;
 }
 
 p {
@@ -29,7 +30,8 @@ ol li{
 
 .page {
   font-family: 'Courier New', Courier, monospace;
-  background-color: black;
+  font-size: 100%;
+  background-color: #081808;
   color: cyan;
 }
 
@@ -49,32 +51,53 @@ ol li{
   align-items: center;
 }
 
+@media screen and (min-width: 640px){
+  .page__content {
+      display: flex;
+  }    
+}
 
 .page__content {
-  background-color: black;
-  display: flex;
+  
 }
 
 .left-content {
   background-color: gray;
   width: auto;
   padding:5px;
+  text-align: center;
+}
+
+@media screen and (min-width: 640px){
+  .left-content {
+    text-align: left;
+  }    
 }
 
 .right-content {
   background-color: orange;
-  width: 25px;
   padding:5px;
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
+  text-align: center;
+}
+
+@media screen and (min-width: 640px){
+  .right-content {
+    width: 25px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    text-align: left;
+  }    
 }
 
 .main-content {
   flex-grow: 1;
-  margin: 5px;
+  margin: 10px;
 }
 
 .main-content__section {
-  /* background-color: cornsilk; */
+  
+}
 
+#hero {
+  font-size: 130%;
 }
