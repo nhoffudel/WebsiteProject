@@ -8,11 +8,14 @@ h1 {
 }
 
 .section-heading {
- text-align: center;
+  text-align: center;
+  padding-right: 10px;
+  color: aquamarine;
+  white-space: nowrap;
 }
 
 p {
-
+  
 }
 
 ol li{
@@ -94,8 +97,19 @@ ol li{
   margin: 10px;
 }
 
+@media screen and (min-width: 640px){
+  .main-content__section {
+    display: flex;
+    align-items: center;
+  }
+}
+
 .main-content__section {
   
+}
+
+.section_content  {
+  flex-direction: column;
 }
 
 #hero {
